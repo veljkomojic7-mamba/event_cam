@@ -1,0 +1,29 @@
+{
+  "camera_id": "example",
+  "frame_width": 1920,
+  "frame_height": 1080,
+  "zones": [
+    {
+      "name": "north_approach",
+      "role": "approach",
+      "polygon": [
+        {"x": 820, "y": 0},
+        {"x": 1100, "y": 0},
+        {"x": 1000, "y": 300},
+        {"x": 900, "y": 300}
+      ]
+    },
+    {
+      "name": "east_exit",
+      "role": "exit",
+      "polygon": [
+        {"x": 1700, "y": 480},
+        {"x": 1920, "y": 480},
+        {"x": 1920, "y": 620},
+        {"x": 1700, "y": 620}
+      ]
+    }
+  ],
+  "lines": [],
+  "calibration_id": null
+}

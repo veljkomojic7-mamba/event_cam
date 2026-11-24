@@ -1,0 +1,18 @@
+# Local data and outputs (videos are sensitive; never commit them)
+data/
+outputs/
+*.mp4
+*.mkv
+*.pt
+*.sqlite
+
+# Secrets
+.env
+
+# Python and tooling
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
